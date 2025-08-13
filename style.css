@@ -19,6 +19,11 @@ button{
     
 }
 
+.img-2{
+    width: 500px;
+    height: 200px;
+}
+
 .header {
     display:flex;
     justify-content: space-between;
@@ -39,4 +44,11 @@ button{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+ }
+ .middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: gray;
  }
