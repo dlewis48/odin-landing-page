@@ -1,12 +1,8 @@
-* {
-    background-color: black;
-    color: yellow;
-}
+
 header {
     font-family: roboto;
     font-size: 24px; 
-    text-align: right;
-    
+    text-align: right;    
 }
 img {
    display: flex;
@@ -28,6 +24,8 @@ button{
     display:flex;
     justify-content: space-between;
     padding: 20px;
+    background-color: black;
+    color: yellow;
 }
 .body {
     display: flex;
@@ -45,10 +43,74 @@ button{
     flex-wrap: nowrap;
     justify-content: space-around;
  }
- .middle {
+ .left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    background-color: black;
+    color: yellow;
+    padding-top: 50px;
+    flex-grow: 1;
+ }
+ .right {
+    display: flex;
+    background-color: black;
+    color: yellow;
+    justify-content: flex-end;
+    padding-right: 150px;
+    padding-left: 24px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+ }
+
+ .middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    background: gray;
+    background: white;
+    text-align: center;
+ }
+
+ .quote {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 24px;
+ }
+
+ .cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    flex-grow: 1;
+ }
+
+ .h3 {
+    text-align: center;
+    background-color: #3882f6;
+    color: white;
+    padding-bottom: 0;
+ }
+
+ .background {
+    background-color: #3882f6;
+    color: white;
+ }
+
+ .img-1 {
+    display: flex;
+    max-width: fit-content;
+ }
+ .img-2 {
+    display: flex;
+ }
+ .img-3 {
+    display: flex;
+ }
+ .img-4 {
+    display: flex;
  }
